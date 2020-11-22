@@ -33,6 +33,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <string.h>
+#include <stdint.h>
 
 void USART0_init(void);
 void USART0_sendChar(char c);
